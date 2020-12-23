@@ -10,8 +10,13 @@
  *
  */
 
+#ifndef TOOLS_H
+#define TOOLS_H
+
 #include <iostream>
 
 const std::string kHelpText = "Este programa escribe a un fichero las fechas en el fichero de entrada (en formato dd/mm/aa) ordenadas en sentido cronológico ascendiente.";
 
 void Usage(int argc, char *argv[]);
+
+#endif
